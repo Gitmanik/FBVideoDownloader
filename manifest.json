@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "GitmanikFBVideoDownloader",
+  "version": "0.2",
+
+  "description": "Download video from FB with only one click!",
+
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_title": "GitmanikFBDownloader",
+    "default_popup": "popup/popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://d.facebook.com/*"],
+      "js": ["/scripts/video_opener.js"]
+    }
+  ]
+}

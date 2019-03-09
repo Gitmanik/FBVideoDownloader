@@ -1,0 +1,42 @@
+html, body {
+    width: 200px;
+    background-color: #C5CD96;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .button {
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+
+  .info
+  {
+    margin: 3% auto;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .download:hover {
+    background-color: #8b786b;
+  }
+
+  .download {
+    background-color: #3F1F09;
+  }
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
